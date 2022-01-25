@@ -7,3 +7,4 @@ black
 bandit
 pytest
 pytest-cov
+codecov
