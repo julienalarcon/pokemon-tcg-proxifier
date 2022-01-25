@@ -17,6 +17,7 @@ class TestPrinter:
     def test_printer_implementation_has_good_attributes_and_method(self):
         # When
         printer = PrinterImplementation()
+        printer.print_deck()
 
         # Then
         assert hasattr(printer, "print_deck")

@@ -17,6 +17,7 @@ class TestScrapper:
     def test_scrapper_implementation_has_a_method_called_scrap_card(self):
         # When
         scrapper = ScrapperImplementation()
+        scrapper.scrap_card(Card("test", 123))
 
         # Then
         assert hasattr(scrapper, "scrap_card")
