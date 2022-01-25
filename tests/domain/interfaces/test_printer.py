@@ -5,7 +5,7 @@ from pokemon_tcg_proxifier.domain import Printer
 
 class PrinterImplementation(Printer):
     def print_deck(self):
-        pass
+        return None
 
 
 class TestPrinter:

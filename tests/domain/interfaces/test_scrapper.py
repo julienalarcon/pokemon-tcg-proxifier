@@ -5,7 +5,7 @@ from pokemon_tcg_proxifier.domain import Scrapper, Card
 
 class ScrapperImplementation(Scrapper):
     def scrap_card(self, card: Card):
-        pass
+        return None
 
 
 class TestScrapper:
