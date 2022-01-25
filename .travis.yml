@@ -13,5 +13,4 @@ script:
   - make lint
   - make test
 after_success:
-  - echo "$CODECOV_TOKEN"
   - codecov -t "$CODECOV_TOKEN" # submit coverage

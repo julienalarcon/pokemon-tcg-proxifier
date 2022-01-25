@@ -16,4 +16,4 @@ lint:	## Linting
 
 test:	## Run the tests
 	@echo "Tests"
-	PYTHONPATH=. python -m pytest
+	PYTHONPATH=. python -m pytest --cov=./ --cov-report=xml
