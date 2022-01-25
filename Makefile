@@ -3,6 +3,11 @@
 help:	## Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
 
+compile-requirements:	## Compile requirements with fixed version
+	@python -m pip install pip-tools
+	@pip-compile requirements\requirements.in --output-file requirements.txt
+	@pip-compile requirements\dev-requirements.in --output-file dev-requirements.txt
+
 lint:	## Linting
 	@echo "Lint"
 	@python -m black --check .
