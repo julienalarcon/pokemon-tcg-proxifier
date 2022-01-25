@@ -1,0 +1,10 @@
+# Prod requirements
+-r requirements.in
+
+# Dev requirements
+flake8
+black
+bandit
+pytest
+pytest-cov
+codecov

@@ -1,0 +1,14 @@
+coverage:
+  status:
+    project:
+      default:
+        # basic
+        number: "90%"
+        threshold: 0%
+        if_not_found: failure
+    patch:
+      default:
+        # basic
+        number: "90%"
+        threshold: 0%
+        if_not_found: failure
