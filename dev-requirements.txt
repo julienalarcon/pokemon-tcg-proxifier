@@ -19,6 +19,8 @@ colorama==0.4.4
     #   bandit
     #   click
     #   pytest
+coverage[toml]==6.2
+    # via pytest-cov
 flake8==4.0.1
     # via -r requirements\dev-requirements.in
 gitdb==4.0.9
@@ -57,6 +59,10 @@ pyflakes==2.4.0
 pyparsing==3.0.7
     # via packaging
 pytest==6.2.5
+    # via
+    #   -r requirements\dev-requirements.in
+    #   pytest-cov
+pytest-cov==3.0.0
     # via -r requirements\dev-requirements.in
 pyyaml==6.0
     # via bandit
@@ -67,7 +73,9 @@ stevedore==3.5.0
 toml==0.10.2
     # via pytest
 tomli==1.2.3
-    # via black
+    # via
+    #   black
+    #   coverage
 typed-ast==1.5.2
     # via black
 typing-extensions==4.0.1
