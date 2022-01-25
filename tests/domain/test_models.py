@@ -1,6 +1,6 @@
 import pytest
 
-from domain import Card, Deck
+from pokemon_tcg_proxifier.domain import Card, Deck
 
 
 @pytest.fixture

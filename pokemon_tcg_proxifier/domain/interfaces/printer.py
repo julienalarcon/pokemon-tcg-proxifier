@@ -7,4 +7,4 @@ class Printer(ABC):
 
     @abstractmethod
     def print_deck(self):
-        pass
+        """Must be implemented by child classes"""

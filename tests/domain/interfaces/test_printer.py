@@ -1,6 +1,6 @@
 import pytest
 
-from domain import Printer
+from pokemon_tcg_proxifier.domain import Printer
 
 
 class PrinterImplementation(Printer):

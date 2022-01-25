@@ -1,6 +1,6 @@
 import pytest
 
-from domain import Scrapper, Card
+from pokemon_tcg_proxifier.domain import Scrapper, Card
 
 
 class ScrapperImplementation(Scrapper):
